@@ -1,10 +1,8 @@
 var PLAY = 1;
 var END = 0;
 var gameState = PLAY;
-
 var trex, trex_running, trex_collided;
 var ground, invisibleGround, groundImage;
-
 var cloudsGroup, cloudImage;
 var obstaclesGroup, obstacle1, obstacle2, obstacle3, obstacle4, obstacle5, obstacle6;
 var grounds = [];
@@ -16,7 +14,6 @@ var jumpSound , checkPointSound, dieSound
 function preload(){
   trex_running = loadAnimation("trex1.png","trex3.png","trex4.png");
   trex_collided = loadAnimation("trex_collided.png");
-  //varable definition
  
   groundImage = loadImage("ground2.png");
   
